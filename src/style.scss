@@ -1,3 +1,4 @@
+
 @mixin mobile{
     @media screen and (max-width: 480px) {
         @content
@@ -13,6 +14,8 @@
             @content
             }
         }
+
+        
 
 
 .formContainer{
@@ -41,7 +44,7 @@
         }
 
         .title{
-            color:#5d5b8d;
+            color:#7b96ec;
             font-size: 12px;
         }
 
@@ -54,7 +57,7 @@
                 padding: 15px;
                 border: none;
                 width: 250px;
-                border-bottom: 1px solid #a7bcff;
+                border-bottom: 1px solid ;
                 &::placeholder{
                     color: rgb(175,175,175);
                 }
@@ -90,15 +93,18 @@
     }
 }
 
+
+//for chat ui
 .home{
-    background-color: #a7bcff;
+    background-color: #202225;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     
     .container{
-        border: 1px solid white;
+        border: 0.5px solid #36393f
+        ;
         border-radius: 10px;
         width: 65%;
         height: 80%;
@@ -107,38 +113,46 @@
         @include tablet{
            width: 90%;
         }
+
+        //for sidebar filled with users
         .sidebar{
         flex: 1;
-        background-color:  #3e3c61;
+        background-color:  #2f3136;
         position: relative;
     
+
+        //top left title
          .navbar{
             display: flex;
             align-items: center;
-            background-color: #2f2d52;
+            background-color: #2f3136;
             height: 50px;
             padding: 10px;
            justify-content: space-between;
-           color: #ddddf7;
+           color: #b9bbbe;
 
            .logo{
             font-weight: bold;
            }
 
+
+           //for small icon next to title
            .user{
             display: flex;
             gap: 10px;
             img{
-                background-color: #ddddf7;
+                background-color: #96989d;
                 height: 24px;
                 width: 24px;
                 border-radius: 50%;
                 object-fit: cover;
             }
 
+
+            //for logout button
             button{
-                background-color: #5d5b8d;
-                color: #ddddf7;
+                background-color: #2f3136;
+                color: #96989d;
                 font-style: 10px;
                 border: none;
                 cursor: pointer; 
@@ -151,8 +165,11 @@
           
            
          }
+
+         //find a user
          .search{
-            border-bottom: 1px solid gray;
+            border-top: 1px solid #202225;
+            border-bottom: 1px solid #202225;
             
             .searchForm{
                 padding: 10px;
@@ -163,12 +180,13 @@
                     outline: none;
 
                     &::placeholder{
-                        color: lightgray;
+                        color: #96989d;
                     }
                 }
             }
         }
            
+
         .userChat{
             padding: 10px;
             display: flex;
@@ -178,7 +196,7 @@
             cursor: pointer;
 
             &:hover{
-                background-color: #2f2d52;
+                background-color: #2f3136;
             }
             img{
                 width: 50px;
@@ -189,21 +207,22 @@
 
             .userChatInfor{
                 span{font-size: 18px;font-weight: 500;}
-                p{font-size: 14px;color: lightgray;}
+                p{font-size: 14px;color: #96989d;}
             }
         }
         }
         .chat{
             flex: 2;
 
+            //middle bar
             .chatInfo{
                 height: 50px;
-                background-color: #5d5b8d;
+                background-color: #2f3136;
                 display: flex;
                 align-items: center;
                 justify-content:space-between;
                 padding: 10px;
-                color: lightgray;
+                color: #96989d;
             }
 
             .chatIcons{
@@ -217,10 +236,10 @@
             }
 
             .messages{
-                background-color: #ddddf7;
+                background-color: #36393f;
                 padding: 10px;
                 height: calc(100% - 160px);
-                overflow: scroll;
+                overflow: hidden;
 
                 .message{
                     display: flex;
@@ -229,7 +248,7 @@
                     .messageInfo{
                         display: flex;
                         flex-direction: column;
-                        color: gray;
+                        color: #96989d;
                         font-weight: 300;
                         img{
                             width: 40px;
@@ -246,7 +265,7 @@
                         gap: 10px;
 
                         p{
-                            background-color: white;
+                            background-color: #40444b;
                             padding: 10px 20px;
                             border-radius: 0px 10px 10px 10px;
                             max-width: max-content;
@@ -267,7 +286,7 @@
 
                         
                         p{
-                            background-color: #8da4f1;
+                            background-color: #40444b;
                             color: white;
                             border-radius: 10px 0px 10px 10px ;
                         }
@@ -278,7 +297,7 @@
 
             .input{
                 height: 50px;
-                background-color: white;
+                background-color: #40444b;
                 padding: 10px;
                 display: flex;
                 align-items: center;
@@ -293,7 +312,7 @@
                     font-size: 18px;
 
                     &::placeholder{
-                        counter-reset: lightgray;
+                        counter-reset: #96989d;
 
                     }
                 }
@@ -310,9 +329,9 @@
                     }
                     button{
                         border: none;
-                        padding: 10px 15px;
-                        color: white;
-                        background-color: #8da4f1;
+                        padding: 10px 10px;
+                        color: #96989d;
+                        background-color: #40444b;
                         cursor: pointer;
                     }
                 }
