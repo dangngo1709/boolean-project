@@ -16,14 +16,14 @@
 
 
 .formContainer{
-    background-color: #a7bcff;
+    background: url(https://www.itl.cat/pngfile/big/191-1918073_cherry-blossom-tree-wallpaper-cherry-blossom-wallpaper-anime.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 
     .formWrapper{
-        background-color: white;
+        background-color: rgba(0,0,0,0.2);
         padding: 20px 60px;
         border-radius: 10px;
         display: flex;
@@ -72,8 +72,8 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
-                color: #8da4f1;
-                font-size: 12px;
+                color: rgb(2, 10, 46);
+                font-size: 15px;
                 cursor: pointer;
 
             img{
@@ -91,7 +91,7 @@
 }
 
 .home{
-    background-color: #a7bcff;
+    background:url(https://www.itl.cat/pngfile/big/191-1918073_cherry-blossom-tree-wallpaper-cherry-blossom-wallpaper-anime.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
