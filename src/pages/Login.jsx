@@ -34,7 +34,7 @@ const Login = () => {
 
       <div className='formWrapper'>
         <span className="logo"> Boolean Chat</span>
-        <span className="title"> Register</span>
+        <span className="title">Login</span>
 
         <form onSubmit={handleSubmit}>
           <input type="email" placeholder="email" />
