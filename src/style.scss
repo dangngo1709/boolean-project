@@ -16,14 +16,14 @@
 
 
 .formContainer{
-    background-color: #a7bcff;
+    background-color: #424549;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .formWrapper{
-        background-color: white;
+        background-color: #424549;
         padding: 20px 60px;
         border-radius: 10px;
         display: flex;
@@ -32,7 +32,7 @@
         align-items: center;
 
         .logo{
-            color: #5d5b8d;
+            color: white;
             font-weight: bold;
             font-size: 24px;
             @include tablet{
@@ -41,7 +41,7 @@
         }
 
         .title{
-            color:#5d5b8d;
+            color:white;
             font-size: 12px;
         }
 
@@ -54,13 +54,13 @@
                 padding: 15px;
                 border: none;
                 width: 250px;
-                border-bottom: 1px solid #a7bcff;
+                border-bottom: 1px solid white;
                 &::placeholder{
                     color: rgb(175,175,175);
                 }
             }
             button{
-                background-color: #7b96ec;
+                background-color: #424549;
                 color: white;
                 padding: 10px;
                 font-weight: bold;
@@ -72,7 +72,7 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
-                color: #8da4f1;
+                color: #424549;
                 font-size: 12px;
                 cursor: pointer;
 
@@ -82,7 +82,7 @@
             }
         }
         p{
-            color: #5d5b8d;
+            color: #424549;
             font-size: 12px;
             margin-top: 10px;
         }
@@ -91,7 +91,7 @@
 }
 
 .home{
-    background-color: #a7bcff;
+    background-color: #424549;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -109,17 +109,17 @@
         }
         .sidebar{
         flex: 1;
-        background-color:  #3e3c61;
+        background-color:  #424549;
         position: relative;
     
          .navbar{
             display: flex;
             align-items: center;
-            background-color: #2f2d52;
+            background-color: #424549;
             height: 50px;
             padding: 10px;
            justify-content: space-between;
-           color: #ddddf7;
+           color: #424549;
 
            .logo{
             font-weight: bold;
@@ -129,7 +129,7 @@
             display: flex;
             gap: 10px;
             img{
-                background-color: #ddddf7;
+                background-color: #424549;
                 height: 24px;
                 width: 24px;
                 border-radius: 50%;
@@ -137,8 +137,8 @@
             }
 
             button{
-                background-color: #5d5b8d;
-                color: #ddddf7;
+                background-color: #424549;
+                color:  white;
                 font-style: 10px;
                 border: none;
                 cursor: pointer; 
@@ -178,7 +178,7 @@
             cursor: pointer;
 
             &:hover{
-                background-color: #2f2d52;
+                background-color: #424549;
             }
             img{
                 width: 50px;
@@ -198,7 +198,7 @@
 
             .chatInfo{
                 height: 50px;
-                background-color: #5d5b8d;
+                background-color: #424549;
                 display: flex;
                 align-items: center;
                 justify-content:space-between;
@@ -217,7 +217,7 @@
             }
 
             .messages{
-                background-color: #ddddf7;
+                background-color: #424549;
                 padding: 10px;
                 height: calc(100% - 160px);
                 overflow: scroll;
@@ -267,7 +267,7 @@
 
                         
                         p{
-                            background-color: #8da4f1;
+                            background-color: #424549;
                             color: white;
                             border-radius: 10px 0px 10px 10px ;
                         }
@@ -278,7 +278,7 @@
 
             .input{
                 height: 50px;
-                background-color: white;
+                background-color: #424549;
                 padding: 10px;
                 display: flex;
                 align-items: center;
@@ -311,8 +311,8 @@
                     button{
                         border: none;
                         padding: 10px 15px;
-                        color: white;
-                        background-color: #8da4f1;
+                        color:  #99AAB5;
+                        background-color: #424549;
                         cursor: pointer;
                     }
                 }
