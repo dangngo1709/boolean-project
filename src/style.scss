@@ -16,14 +16,14 @@
 
 
 .formContainer{
-    background-color: #424549;
+    background-color: #2C2F33;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .formWrapper{
-        background-color: #424549;
+        background-color: #2C2F33;
         padding: 20px 60px;
         border-radius: 10px;
         display: flex;
@@ -109,7 +109,7 @@
         }
         .sidebar{
         flex: 1;
-        background-color:  #424549;
+        background-color:  #2C2F33;
         position: relative;
     
          .navbar{
@@ -159,11 +159,11 @@
                 input{ 
                     background-color: transparent;
                     border: none;
-                    color: white;
+                    color: gray;
                     outline: none;
 
                     &::placeholder{
-                        color: lightgray;
+                        color: #424549;
                     }
                 }
             }
@@ -174,7 +174,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            color: white;
+            color: lightgray;
             cursor: pointer;
 
             &:hover{
