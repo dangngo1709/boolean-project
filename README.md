@@ -16,7 +16,7 @@ React App Webapp of a functional, basic chat app using CRA. Originally tried to 
 
 ![Login Screen](https://i.imgur.com/VfITIu0_d.webp?maxwidth=1520&fidelity=grand.jpg)
 
-![Signup Screen](https://imgur.com/a/IjvAzgG.jpg)
+![Signup Screen](https://i.imgur.com/rzw311J.jpg)
 
 ![Home Screen](https://imgur.com/a/LmQKu9m.jpg)
 
