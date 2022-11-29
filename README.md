@@ -2,12 +2,12 @@
 
 React App Webapp of a functional, basic chat app using CRA. Originally tried to use HTML, CSS, JS from scratch with Parse / Back4App.
 
-## Nonfunctional Requirements:
+## Functional Requirements:
  - [x] user can send messages
  - [x] webpage is accessible from the web
  - [x] Uses a API to save and manage user data
  
- ## Functional Requirements:
+ ## Non-Functional Requirements:
  - [x] user can login to a unique account
  - [x] user can logout of account
  - [x] support sending different data types (Photos, etc)
