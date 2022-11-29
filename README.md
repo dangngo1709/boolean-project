@@ -18,7 +18,8 @@ React App Webapp of a functional, basic chat app using CRA. Originally tried to 
 
 ![Signup Screen](https://i.imgur.com/rzw311J.jpg)
 
-![Home Screen](https://imgur.com/a/LmQKu9m.jpg)
+![Home Screen](https://user-images.githubusercontent.com/69946180/204650193-36fa29d9-3b16-4644-a81f-a5163cbad4f6.png)
+
 
 
 # Getting Started with Create React App
