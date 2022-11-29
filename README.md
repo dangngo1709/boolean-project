@@ -1,3 +1,26 @@
+# Chat App
+
+React App Webapp of a functional, basic chat app using CRA. Originally tried to use HTML, CSS, JS from scratch with Parse / Back4App.
+
+## Nonfunctional Requirements:
+ - [x] user can send messages
+ - [x] webpage is accessible from the web
+ - [x] Uses a API to save and manage user data
+ 
+ ## Functional Requirements:
+ - [x] user can login to a unique account
+ - [x] user can logout of account
+ - [x] support sending different data types (Photos, etc)
+ - [x] support more email providers (Gmail currently only supported)
+ - [ ] Allow for more theme customization
+
+![Login Screen](https://imgur.com/a/URz8sIA.jpg)
+
+![Signup Screen](https://imgur.com/a/IjvAzgG.jpg)
+
+![Home Screen](https://imgur.com/a/LmQKu9m.jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
